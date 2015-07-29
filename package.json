@@ -1,0 +1,25 @@
+{
+  "name": "brickflow-sentinel",
+  "version": "0.0.0",
+  "description": "Checks server availability, sends and receives SMS.",
+  "main": "src/sentinel.js",
+  "dependencies": {
+    "godot": "^0.7.9",
+    "godot-producer": "0.0.1",
+    "influx": "^1.0.2",
+    "lodash": "^2.4.1",
+    "nodemailer": "^0.7.1",
+    "request": "^2.36.0",
+    "simple-nexmo": "^1.0.6",
+    "ssh2": "^0.2.25"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/brickflow/brickflow-sentinel.git"
+  },
+  "author": "Brickflow team"
+}
